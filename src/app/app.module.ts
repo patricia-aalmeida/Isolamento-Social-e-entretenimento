@@ -19,6 +19,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { LOCALE_ID } from '@angular/core';
 import { registerLocaleData } from '@angular/common';
 import localePt from '@angular/common/locales/pt';
+import { ProfissionaisCardComponent } from './components/profissionais-card/profissionais-card.component';
+import { ProfissionaisPageComponent } from './components/profissionais-page/profissionais-page.component';
 
 registerLocaleData(localePt, 'pt-BR');
 
@@ -27,7 +29,9 @@ registerLocaleData(localePt, 'pt-BR');
     AppComponent,
     MenuPagLayoutComponent,
     ExemploComponent,
-    SobrePageComponent
+    SobrePageComponent,
+    ProfissionaisCardComponent,
+    ProfissionaisPageComponent
   ],
   imports: [
     BrowserModule,
